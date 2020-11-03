@@ -1,0 +1,9 @@
+vdel -lib  ${TP_PATH}/libs/lib_BENCH -all
+
+vlib ${TP_PATH}/libs/lib_BENCH
+
+vmap lib_BENCH ${TP_PATH}/libs/lib_BENCH 
+
+vcom +acc -work lib_BENCH bench.vhd
+vcom +acc -work lib_BENCH bench_read_write.vhd
+

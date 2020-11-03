@@ -1,0 +1,13 @@
+SpyGlass run started at 02:43:53 PM on Feb 14 2018 
+
+SpyGlass Predictive Analyzer(R) - Version 5.6.0
+Last compiled on Dec 15 2015
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+Loading Policy: spyglass (Version: 5.6.0) from path: /softl3/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /softl3/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /softl3/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /softl3/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 

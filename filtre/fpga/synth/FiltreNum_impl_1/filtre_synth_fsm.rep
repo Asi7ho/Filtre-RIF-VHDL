@@ -1,0 +1,68 @@
+//Precision RTL Synthesis 2014a.1_64-bit (Production Release) Mon Feb 24 02:39:08 PST 2014
+//
+//Copyright (c) Mentor Graphics Corporation, 1996-2014, All Rights Reserved.
+//           Portions copyright 1991-2008 Compuware Corporation
+//                     UNPUBLISHED, LICENSED SOFTWARE.
+//          CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//
+//Running on Linux xph2sic015@cimepc08 #1 SMP Debian 3.2.68-1+deb7u5 3.2.0-4-amd64 x86_64
+//
+
+                                =======================                         
+                                Precision 2014a.1_64-bit                         
+                                =======================                         
+
+
+
+                                FSM EXTRACTION ANALYSIS                         
+                                =======================                         
+
+
+~~~~~~~~~~~~~~~~~~~~~
+Module : work.FSM(A)
+~~~~~~~~~~~~~~~~~~~~~
+Number of FSMs Extracted : 1
+
+1.
+--------------------------------------------------
+Number of States                : 5
+Primary State Variable          : current_state[4:0]
+Other State Variable(s)         : 1) next_state[4:0]
+Async set/reset state(s)        : (none)
+Re-encoding Scheme              : ONEHOT 
+FSM: Info, state encoding table:
+FSM:	Index	                         State Name	                            Literal	                      Encoding
+FSM:	    0	                               INIT	                              00001	                         00001
+FSM:	    1	                               CONV	                              00010	                         00010
+FSM:	    2	                             CALCUL	                              00100	                         00100
+FSM:	    3	                          WAIT_CONV	                              01000	                         01000
+FSM:	    4	                                REG	                              10000	                         10000
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Module : work.ADC_FSM(A)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Number of FSMs Extracted : 1
+
+1.
+--------------------------------------------------
+Number of States                : 5
+Primary State Variable          : current_state[4:0]
+Other State Variable(s)         : 1) next_state[4:0]
+Async set/reset state(s)        : (none)
+Re-encoding Scheme              : ONEHOT 
+FSM: Info, state encoding table:
+FSM:	Index	                         State Name	                            Literal	                      Encoding
+FSM:	    0	                               INIT	                              00001	                         00001
+FSM:	    1	                               CONV	                              00010	                         00010
+FSM:	    2	                          CONV_WAIT	                              00100	                         00100
+FSM:	    3	                           READ_ST1	                              01000	                         01000
+FSM:	    4	                           READ_ST2	                              10000	                         10000
+
+
+

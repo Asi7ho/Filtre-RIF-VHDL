@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+cModel Technology
+d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/alu_reg/libs
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Ealu_reg
+Z0 w1517912750
+Z1 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z2 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z4 d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/alu_reg/vhd
+Z5 8alu_reg.vhd
+Z6 Falu_reg.vhd
+l0
+L6
+VF]fREDOUfaP9a7[Ef:CNi1
+Z7 OL;C;10.2c;57
+32
+Z8 !s110 1518007782
+Z9 !s108 1518007781.971705
+Z10 !s90 -work|lib_VHDL|alu_reg.vhd|
+Z11 !s107 alu_reg.vhd|
+Z12 o-work lib_VHDL
+Z13 tOptimize_1164 0 Explicit 1 IgnoreVitalErrors 1 Show_VitalChecksWarnings 0
+!s100 b9PKG<8H?VolMNOKCjzo92
+!i10b 1
+!i111 0
+Artl
+R1
+R2
+R3
+DEx4 work 7 alu_reg 0 22 F]fREDOUfaP9a7[Ef:CNi1
+l42
+L25
+V;9c4bh<PeUh;]aVb[_bEl0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 ie^F2Z;h`WGJzQQ2B3LLA1
+!i10b 1
+!i111 0
+Efull_adder
+Z14 w1517912750
+R1
+R2
+R3
+R4
+Z15 8full_adder.vhd
+Z16 Ffull_adder.vhd
+l0
+L6
+V1XLAkTKLg8[@Iz5^MNRTU1
+!s100 dHeH=BZhnP^58NO9YJQE;2
+R7
+32
+Z17 !s110 1518007793
+!i10b 1
+Z18 !s108 1518007793.666739
+Z19 !s90 -work|lib_VHDL|full_adder.vhd|
+Z20 !s107 full_adder.vhd|
+!i111 0
+R12
+R13
+Aarch
+R1
+R2
+R3
+DEx4 work 10 full_adder 0 22 1XLAkTKLg8[@Iz5^MNRTU1
+l22
+L19
+Vj`;`UjGRJlVbWN2BU9A9U2
+!s100 z3`T?JQ1bk3m3CDZKG[ZJ0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i111 0
+R12
+R13

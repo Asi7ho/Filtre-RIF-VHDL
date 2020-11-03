@@ -1,0 +1,13 @@
+Entity,Entity Type,Port Name,Direction,Width,Index,Comment Source,Comment
+FILTER,Top_Level,Filter_In,INPUT,8,(7:0),port definition,- 
+FILTER,Top_Level,CLK,INPUT,1,-,port definition,- 
+FILTER,Top_Level,RESET,INPUT,1,-,port definition,- 
+FILTER,Top_Level,ADC_Eocb,INPUT,1,-,port definition,- 
+FILTER,Top_Level,ADC_Convstb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,ADC_Rdb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,ADC_csb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,DAC_WRb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,DAC_csb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,LDACb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,CLRb,OUTPUT,1,-,port definition,- 
+FILTER,Top_Level,Filter_Out,OUTPUT,8,(7:0),port definition,- 

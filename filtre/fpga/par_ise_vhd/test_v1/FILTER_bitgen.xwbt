@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/par_ise_vhd/test_v1/FILTER.ncd
+OUTFILE=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/par_ise_vhd/test_v1/FILTER.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/par_ise_vhd/test_v1
+LICENSE=ISE
+USER_INFO=174170201_174170202_210646199_166

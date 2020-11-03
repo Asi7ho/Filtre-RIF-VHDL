@@ -1,0 +1,619 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Reading design: FILTER.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FILTER.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FILTER"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : FILTER
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/rom.vhd" in Library work.
+Architecture a of Entity rom is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/delayline.vhd" in Library work.
+Architecture a of Entity delay_line is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/mult.vhd" in Library work.
+Architecture a of Entity mult is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/accu.vhd" in Library work.
+Architecture a of Entity accu is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/buff.vhd" in Library work.
+Architecture a of Entity buff is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/fsm.vhd" in Library work.
+Architecture a of Entity fsm is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/ADC_fsm.vhd" in Library work.
+Architecture a of Entity adc_fsm is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/DAC_fsm.vhd" in Library work.
+Architecture a of Entity dac_fsm is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/register.vhd" in Library work.
+Architecture a of Entity register_1 is up to date.
+Compiling vhdl file "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/filtre.vhd" in Library work.
+Architecture a of Entity filter is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FILTER> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <ROM> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <DELAY_LINE> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <MULT> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <ACCU> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <BUFF> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <FSM> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <ADC_FSM> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <DAC_FSM> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <register_1> in library <work> (architecture <a>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <FILTER> in library <work> (Architecture <a>).
+Entity <FILTER> analyzed. Unit <FILTER> generated.
+
+Analyzing Entity <ROM> in library <work> (Architecture <a>).
+Entity <ROM> analyzed. Unit <ROM> generated.
+
+Analyzing Entity <DELAY_LINE> in library <work> (Architecture <a>).
+Entity <DELAY_LINE> analyzed. Unit <DELAY_LINE> generated.
+
+Analyzing Entity <MULT> in library <work> (Architecture <a>).
+Entity <MULT> analyzed. Unit <MULT> generated.
+
+Analyzing Entity <ACCU> in library <work> (Architecture <a>).
+Entity <ACCU> analyzed. Unit <ACCU> generated.
+
+Analyzing Entity <BUFF> in library <work> (Architecture <a>).
+Entity <BUFF> analyzed. Unit <BUFF> generated.
+
+Analyzing Entity <FSM> in library <work> (Architecture <a>).
+Entity <FSM> analyzed. Unit <FSM> generated.
+
+Analyzing Entity <ADC_FSM> in library <work> (Architecture <a>).
+Entity <ADC_FSM> analyzed. Unit <ADC_FSM> generated.
+
+Analyzing Entity <DAC_FSM> in library <work> (Architecture <a>).
+Entity <DAC_FSM> analyzed. Unit <DAC_FSM> generated.
+
+Analyzing Entity <register_1> in library <work> (Architecture <a>).
+Entity <register_1> analyzed. Unit <register_1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ROM>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/rom.vhd".
+    Found 32x8-bit ROM for signal <Rom_out$rom0000> created at line 35.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ROM> synthesized.
+
+
+Synthesizing Unit <DELAY_LINE>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/delayline.vhd".
+    Found 8-bit 32-to-1 multiplexer for signal <Delay_Line_out>.
+    Found 256-bit register for signal <x>.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <x>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 256 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <DELAY_LINE> synthesized.
+
+
+Synthesizing Unit <MULT>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/mult.vhd".
+    Found 8x8-bit multiplier for signal <Mult_out>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <MULT> synthesized.
+
+
+Synthesizing Unit <ACCU>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/accu.vhd".
+    Found 21-bit up accumulator for signal <ACCU>.
+    Summary:
+	inferred   1 Accumulator(s).
+Unit <ACCU> synthesized.
+
+
+Synthesizing Unit <BUFF>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/buff.vhd".
+    Found 8-bit register for signal <Buff_out>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <BUFF> synthesized.
+
+
+Synthesizing Unit <FSM>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/fsm.vhd".
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 6                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | init                                           |
+    | Power Up State     | init                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit register for signal <curr_cnt>.
+    Found 5-bit subtractor for signal <next_cnt$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <FSM> synthesized.
+
+
+Synthesizing Unit <ADC_FSM>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/ADC_fsm.vhd".
+    Found finite state machine <FSM_1> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | init                                           |
+    | Power Up State     | init                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ADC_FSM> synthesized.
+
+
+Synthesizing Unit <DAC_FSM>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/DAC_fsm.vhd".
+    Found 1-bit register for signal <current_state<0>>.
+    Found 1-bit register for signal <pre_req_F2DAC>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DAC_FSM> synthesized.
+
+
+Synthesizing Unit <register_1>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/register.vhd".
+    Found 8-bit register for signal <reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <register_1> synthesized.
+
+
+Synthesizing Unit <FILTER>.
+    Related source file is "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/vhd/filtre.vhd".
+WARNING:Xst:1780 - Signal <ZERO> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Accu_out<20>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Accu_out<11:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <FILTER> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 32x8-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Accumulators                                         : 1
+ 21-bit up loadable accumulator                        : 1
+# Registers                                            : 37
+ 1-bit register                                        : 2
+ 5-bit register                                        : 1
+ 8-bit register                                        : 34
+# Multiplexers                                         : 1
+ 8-bit 32-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <U7/current_state/FSM> on signal <current_state[1:3]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ init      | 000
+ conv      | 001
+ conv_wait | 011
+ read_st1  | 010
+ read_st2  | 110
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <U6/current_state/FSM> on signal <current_state[1:3]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ init      | 000
+ conv      | 001
+ calcul    | 011
+ wait_conv | 010
+ reg       | 110
+-----------------------
+
+Synthesizing (advanced) Unit <DELAY_LINE>.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<0>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<1>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<2>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<3>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<4>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<5>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<6>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:1317 - HDL ADVISOR - A dynamic shift register was found for signal <Delay_Line_out<7>> and currently occupies 32 logic cells (16 slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 2 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <DELAY_LINE> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 32x8-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Accumulators                                         : 1
+ 21-bit up loadable accumulator                        : 1
+# Registers                                            : 279
+ Flip-Flops                                            : 279
+# Multiplexers                                         : 8
+ 1-bit 32-to-1 multiplexer                             : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <U4/ACCU_20> of sequential type is unconnected in block <FILTER>.
+
+Optimizing unit <FILTER> ...
+
+Optimizing unit <DELAY_LINE> ...
+
+Optimizing unit <BUFF> ...
+
+Optimizing unit <FSM> ...
+
+Optimizing unit <register_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FILTER, actual ratio is 12.
+FlipFlop U6/curr_cnt_0 has been replicated 9 time(s)
+FlipFlop U6/curr_cnt_1 has been replicated 5 time(s)
+FlipFlop U6/curr_cnt_2 has been replicated 3 time(s)
+FlipFlop U6/curr_cnt_3 has been replicated 3 time(s)
+FlipFlop U6/curr_cnt_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 326
+ Flip-Flops                                            : 326
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : FILTER.ngr
+Top Level Output File Name         : FILTER
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 350
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 10
+#      LUT2_L                      : 1
+#      LUT3                        : 151
+#      LUT4                        : 18
+#      LUT4_L                      : 1
+#      MUXCY                       : 19
+#      MUXF5                       : 71
+#      MUXF6                       : 32
+#      MUXF7                       : 16
+#      MUXF8                       : 8
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 326
+#      FDR                         : 25
+#      FDRE                        : 272
+#      FDRS                        : 1
+#      FDRSE                       : 2
+#      FDS                         : 26
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 10
+#      OBUF                        : 15
+# MULTs                            : 1
+#      MULT18X18                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      256  out of   1920    13%  
+ Number of Slice Flip Flops:            326  out of   3840     8%  
+ Number of 4 input LUTs:                182  out of   3840     4%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    173    15%  
+ Number of MULT18X18s:                    1  out of     12     8%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 326   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 10.186ns (Maximum Frequency: 98.177MHz)
+   Minimum input arrival time before clock: 4.614ns
+   Maximum output required time after clock: 7.907ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 10.186ns (frequency: 98.177MHz)
+  Total number of paths / destination ports: 149127 / 593
+-------------------------------------------------------------------------
+Delay:               10.186ns (Levels of Logic = 12)
+  Source:            U6/curr_cnt_0_1 (FF)
+  Destination:       U4/ACCU_19 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: U6/curr_cnt_0_1 to U4/ACCU_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             18   0.626   1.263  U6/curr_cnt_0_1 (U6/curr_cnt_0_1)
+     LUT3:I2->O            1   0.479   0.000  U2/mux7_6 (U2/mux7_6)
+     MUXF5:I1->O           1   0.314   0.000  U2/mux7_5_f5 (U2/mux7_5_f5)
+     MUXF6:I1->O           1   0.298   0.000  U2/mux7_4_f6 (U2/mux7_4_f6)
+     MUXF7:I1->O           1   0.298   0.000  U2/mux7_3_f7 (U2/mux7_3_f7)
+     MUXF8:I1->O           1   0.298   0.681  U2/mux7_2_f8 (Delay_Line_out<7>)
+     MULT18X18:A7->P15     1   3.146   0.740  U3/Mmult_Mult_out (Mult_out<15>)
+     LUT3:I2->O            1   0.479   0.000  U4/Maccum_ACCU_lut<15> (U4/Maccum_ACCU_lut<15>)
+     MUXCY:S->O            1   0.435   0.000  U4/Maccum_ACCU_cy<15> (U4/Maccum_ACCU_cy<15>)
+     MUXCY:CI->O           1   0.056   0.000  U4/Maccum_ACCU_cy<16> (U4/Maccum_ACCU_cy<16>)
+     MUXCY:CI->O           1   0.056   0.000  U4/Maccum_ACCU_cy<17> (U4/Maccum_ACCU_cy<17>)
+     MUXCY:CI->O           0   0.056   0.000  U4/Maccum_ACCU_cy<18> (U4/Maccum_ACCU_cy<18>)
+     XORCY:CI->O           1   0.786   0.000  U4/Maccum_ACCU_xor<19> (Result<19>)
+     FDR:D                     0.176          U4/ACCU_19
+    ----------------------------------------
+    Total                     10.186ns (7.502ns logic, 2.684ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 335 / 335
+-------------------------------------------------------------------------
+Offset:              4.614ns (Levels of Logic = 1)
+  Source:            RESET (PAD)
+  Destination:       U8/pre_req_F2DAC (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RESET to U8/pre_req_F2DAC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           326   0.715   3.007  RESET_IBUF (RESET_IBUF)
+     FDR:R                     0.892          U8/current_state_0
+    ----------------------------------------
+    Total                      4.614ns (1.607ns logic, 3.007ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 16 / 13
+-------------------------------------------------------------------------
+Offset:              7.907ns (Levels of Logic = 2)
+  Source:            U7/current_state_FSM_FFd3 (FF)
+  Destination:       ADC_csb (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: U7/current_state_FSM_FFd3 to ADC_csb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.626   1.148  U7/current_state_FSM_FFd3 (U7/current_state_FSM_FFd3)
+     LUT2:I0->O            2   0.479   0.745  U7/current_state_FSM_Out11 (ADC_Rdb_OBUF)
+     OBUF:I->O                 4.909          ADC_csb_OBUF (ADC_csb)
+    ----------------------------------------
+    Total                      7.907ns (6.014ns logic, 1.893ns route)
+                                       (76.1% logic, 23.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 5.81 secs
+ 
+--> 
+
+
+Total memory usage is 521016 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

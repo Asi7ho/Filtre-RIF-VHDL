@@ -1,0 +1,10 @@
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/ADC_fsm.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/DAC_fsm.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/accu.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/buff.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/delayline.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/fsm.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/mult.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/register.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/rom.vhd" -2002
+work "/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/synth/../../vhd/filtre.vhd" -2002

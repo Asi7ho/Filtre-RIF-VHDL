@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Mar 06 09:36:51 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLK" LOCATE = SITE "T9" LEVEL 1;
+COMP "CLRb" LOCATE = SITE "C1" LEVEL 1;
+COMP "Filter_In<0>" LOCATE = SITE "B5" LEVEL 1;
+COMP "Filter_In<1>" LOCATE = SITE "N7" LEVEL 1;
+COMP "Filter_In<2>" LOCATE = SITE "N8" LEVEL 1;
+COMP "Filter_In<3>" LOCATE = SITE "L5" LEVEL 1;
+COMP "Filter_In<4>" LOCATE = SITE "D8" LEVEL 1;
+COMP "Filter_In<5>" LOCATE = SITE "C8" LEVEL 1;
+COMP "Filter_In<6>" LOCATE = SITE "A3" LEVEL 1;
+COMP "Filter_In<7>" LOCATE = SITE "B12" LEVEL 1;
+COMP "ADC_Convstb" LOCATE = SITE "E7" LEVEL 1;
+COMP "LDACb" LOCATE = SITE "N5" LEVEL 1;
+COMP "RESET" LOCATE = SITE "L14" LEVEL 1;
+COMP "Filter_Out<0>" LOCATE = SITE "C2" LEVEL 1;
+COMP "Filter_Out<1>" LOCATE = SITE "R5" LEVEL 1;
+COMP "Filter_Out<2>" LOCATE = SITE "L4" LEVEL 1;
+COMP "Filter_Out<3>" LOCATE = SITE "T5" LEVEL 1;
+COMP "Filter_Out<4>" LOCATE = SITE "M3" LEVEL 1;
+COMP "Filter_Out<5>" LOCATE = SITE "R6" LEVEL 1;
+COMP "Filter_Out<6>" LOCATE = SITE "M4" LEVEL 1;
+COMP "Filter_Out<7>" LOCATE = SITE "T8" LEVEL 1;
+COMP "ADC_Eocb" LOCATE = SITE "E6" LEVEL 1;
+COMP "ADC_Rdb" LOCATE = SITE "D7" LEVEL 1;
+COMP "DAC_WRb" LOCATE = SITE "C6" LEVEL 1;
+COMP "ADC_csb" LOCATE = SITE "C7" LEVEL 1;
+COMP "DAC_csb" LOCATE = SITE "D5" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

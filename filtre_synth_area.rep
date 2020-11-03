@@ -1,0 +1,129 @@
+//  Precision RTL Synthesis 2014a.1_64-bit (Production Release) Mon Feb 24 02:39:08 PST 2014
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2014, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux xph2sic015@cimepc08 #1 SMP Debian 3.2.68-1+deb7u5 3.2.0-4-amd64 x86_64
+//  
+//  Start time Tue Mar  6 09:19:53 2018
+
+***************************************************************
+Device Utilization for 3S200ft256
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               26      173      15.03%
+Global Buffers                    1       8        12.50%
+LUTs                              128     3840      3.33%
+CLB Slices                        64      1920      3.33%
+Dffs or Latches                   83      4359      1.90%
+Block RAMs                        0       12        0.00%
+Block Multipliers                 1       12        8.33%
+Block Multiplier Dffs             0       432       0.00%
+---------------------------------------------------------------
+
+****************************************
+
+Library: work    Cell: FILTER    View: A
+
+****************************************
+
+  Cell        Library  References     Total Area
+
+ ACCU         work          1 x     33     33 gates
+                                    33     33 LUTs
+                                    20     20 Dffs or Latches
+                                    19     19 MUX CARRYs
+ BUFGP        xis3          1 x
+ FDR          xis3          8 x      1      8 Dffs or Latches
+ FDRE         xis3         48 x      1     48 Dffs or Latches
+ FDS          xis3          7 x      1      7 Dffs or Latches
+ GND          xis3          1 x
+ IBUF         xis3         10 x
+ INV          xis3          1 x
+ LUT2         xis3         10 x      1     10 LUTs
+ LUT3         xis3         20 x      1     20 LUTs
+ LUT4         xis3         49 x      1     49 LUTs
+ OBUF         xis3         15 x
+ SRLC16E      xis3         16 x      1     16 LUTs
+ VCC          xis3          1 x
+ mult_16_0    OPERATORS     1 x      1      1 Block Multipliers
+
+ Number of ports :                      26
+ Number of nets :                      230
+ Number of instances :                 189
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of Block Multipliers :           1
+ Number of Dffs or Latches :            83
+ Number of LUTs :                      128
+ Number of MUX CARRYs :                 19
+ Number of gates :                      33
+ Number of accumulated instances :     282
+
+
+*****************************
+ IO Register Mapping Report
+*****************************
+Design: work.FILTER.A
+
++------------------+-----------+----------+----------+----------+
+| Port             | Direction |   INFF   |  OUTFF   |  TRIFF   |
++------------------+-----------+----------+----------+----------+
+| Filter_In(7)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(6)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(5)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(4)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(3)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(2)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(1)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_In(0)     | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| CLK              | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| RESET            | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| ADC_Eocb         | Input     |          |          |          |
++------------------+-----------+----------+----------+----------+
+| ADC_Convstb      | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| ADC_Rdb          | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| ADC_csb          | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| DAC_WRb          | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| DAC_csb          | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| LDACb            | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| CLRb             | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(7)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(6)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(5)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(4)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(3)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(2)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(1)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+| Filter_Out(0)    | Output    |          |          |          |
++------------------+-----------+----------+----------+----------+
+Total registers mapped: 0

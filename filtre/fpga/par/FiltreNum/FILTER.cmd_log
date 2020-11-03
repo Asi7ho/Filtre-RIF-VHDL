@@ -1,0 +1,6 @@
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/fpga/userconstraints/filtre.ucf -p xc3s200-ft256-5 filtre_synth.edf FILTER.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o FILTER_map.ncd FILTER.ngd FILTER.pcf 
+par -w -intstyle ise -ol high -t 1 FILTER_map.ncd FILTER.ncd FILTER.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FILTER.twx FILTER.ncd -o FILTER.twr FILTER.pcf 
+netgen -intstyle ise -s 5  -pcf FILTER.pcf -rpw 100 -tpw 0 -ar Structure -tm FILTER -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim FILTER.ncd FILTER_timesim.vhd 
+bitgen -intstyle ise -f FILTER.ut FILTER.ncd 

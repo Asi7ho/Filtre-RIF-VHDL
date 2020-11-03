@@ -1,0 +1,41 @@
+# //  ModelSim SE-64 10.2c Jul 18 2013 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+run
+# No Design Loaded!
+run 20ms
+# No Design Loaded!
+vsim lib_BENCH.alu_reg_testbench
+# vsim lib_BENCH.alu_reg_testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_reg_testbench(arch_etu)#1
+run 1ms
+run
+run
+run
+run
+run
+run
+restart
+restart
+run
+run -all
+add wave -r /*
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+restart
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+run
+# Error Undo Start called while in Redo capture mode 
+add wave -r /*
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/alu_reg/bench/wave.do

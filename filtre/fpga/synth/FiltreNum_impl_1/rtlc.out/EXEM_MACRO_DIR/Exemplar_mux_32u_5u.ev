@@ -1,0 +1,12 @@
+module mux_32u_5u (a, b, d);
+input [31 : 0] a;
+input [4 : 0] b;
+output d;
+
+// pragma attribute mux_32u_5u ikos_rtlc$GENERIC mux
+// pragma attribute mux_32u_5u ikos_rtlc$size 32
+// pragma attribute mux_32u_5u ikos_rtlc$signed false
+
+
+endmodule
+

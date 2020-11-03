@@ -1,0 +1,16 @@
+vdel -lib  ${TP_PATH}/libs/lib_VHDL -all
+
+vlib ${TP_PATH}/libs/lib_VHDL
+
+vmap lib_VHDL ${TP_PATH}/libs/lib_VHDL 
+
+vcom +acc -work lib_VHDL accu.vhd 
+vcom +acc -work lib_VHDL buff.vhd  
+vcom +acc -work lib_VHDL delayline.vhd 
+vcom +acc -work lib_VHDL fsm.vhd 
+vcom +acc -work lib_VHDL mult.vhd 
+vcom +acc -work lib_VHDL DAC_fsm.vhd
+vcom +acc -work lib_VHDL ADC_fsm.vhd
+vcom +acc -work lib_VHDL register.vhd
+vcom +acc -work lib_VHDL rom.vhd
+vcom +acc -work lib_VHDL filtre.vhd 

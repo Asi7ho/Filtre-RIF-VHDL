@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/config/impact.xsl
+OUTFILE=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/config/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/config
+LICENSE=iMPACT
+USER_INFO=iMPACT

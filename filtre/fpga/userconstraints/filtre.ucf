@@ -1,0 +1,35 @@
+#
+# -----------------------
+# Assign a signal to a range of I/O pins
+# -----------------------
+#NET "signal_name" LOC=P32, P33, P34;
+#convertisseur AN
+NET filter_in(7) LOC=B12 ;
+NET filter_in(6) LOC=A3 ;
+NET filter_in(5) LOC=C8;
+NET filter_in(4) LOC=D8;
+NET filter_in(3) LOC=L5;
+NET filter_in(2) LOC=N8;
+NET filter_in(1) LOC=N7;
+NET filter_in(0) LOC=B5;
+NET ADC_Eocb LOC = E6;
+NET adc_convstb LOC = E7;
+NET ADC_Rdb LOC = D7;
+NET adc_csb LOC = C7;
+#clk reset
+NET clk LOC = T9;
+NET reset LOC = L14;
+#convertisseur NA
+NET filter_out(7) LOC=T8;
+NET filter_out(6) LOC=M4;
+NET filter_out(5) LOC=R6;
+NET filter_out(4) LOC=M3;
+NET filter_out(3) LOC=T5;
+NET filter_out(2) LOC=L4;
+NET filter_out(1) LOC=R5;
+NET filter_out(0) LOC=C2;
+NET DAC_WRb LOC = C6;
+NET DAC_csb LOC = D5;
+NET LDACb LOC = N5;
+NET CLRB LOC = C1;
+# #

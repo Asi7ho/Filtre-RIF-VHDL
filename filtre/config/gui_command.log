@@ -1,0 +1,5 @@
+new_project spyglass-1 -force
+save_project
+save_project
+gui_exit
+gui_exit

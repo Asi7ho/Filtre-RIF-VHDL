@@ -1,0 +1,91 @@
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+================================================================================================
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)             Required Period (Freq)
+	------                  ----------                            -----------------             ----------------------
+	ClockDomain0            CLK                                   11.998 (83.347 MHz)           20.000 (50.000 MHz)
+-- Device: Xilinx - SPARTAN3 : 3s200ft256 : 5
+-- CTE report summary..
+                  CTE Report Summary
+
+End CTE Report Summary ..... CPU Time Used: 0 sec.
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+Setup Slack Path Summary
+
+               Data                                                        Data
+       Setup   Path   Source  Dest.                                        End 
+Index  Slack  Delay   Clock   Clock   Data Start Pin      Data End Pin     Edge
+-----  -----  ------  ------  -----  -----------------  -----------------  ----
+  1    8.002  11.789  CLK     CLK    ix36612z15070/CLK  U4/reg_ACCU(15)/D  Rise
+  2    8.002  11.789  CLK     CLK    ix36612z15041/CLK  U4/reg_ACCU(15)/D  Rise
+  3    8.002  11.789  CLK     CLK    ix36612z15062/CLK  U4/reg_ACCU(15)/D  Rise
+  4    8.002  11.789  CLK     CLK    ix36612z15049/CLK  U4/reg_ACCU(15)/D  Rise
+  5    8.002  11.789  CLK     CLK    ix36612z15046/CLK  U4/reg_ACCU(15)/D  Rise
+  6    8.002  11.789  CLK     CLK    ix36612z15045/CLK  U4/reg_ACCU(15)/D  Rise
+  7    8.002  11.789  CLK     CLK    ix36612z15058/CLK  U4/reg_ACCU(15)/D  Rise
+  8    8.002  11.789  CLK     CLK    ix36612z15069/CLK  U4/reg_ACCU(15)/D  Rise
+  9    8.002  11.789  CLK     CLK    ix36612z15050/CLK  U4/reg_ACCU(15)/D  Rise
+ 10    8.002  11.789  CLK     CLK    ix36612z15061/CLK  U4/reg_ACCU(15)/D  Rise
+
+-- Device: Xilinx - SPARTAN3 : 3s200ft256 : 5
+-- CTE report summary..
+                  CTE Report Summary
+
+Analyzing setup constraint violations 
+End CTE Report Summary ..... CPU Time Used: 0 sec.
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+-- Device: Xilinx - SPARTAN3 : 3s200ft256 : 5
+-- CTE report timing..
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 8.002):
+
+SOURCE CLOCK: name: CLK period: 20.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: CLK period: 20.000000
+     Times are relative to the 2nd rising edge
+
+NAME                                        GATE          DELAY    ARRIVAL DIR  FANOUT
+ix36612z15070/CLK                        SRLC16E                   0.000   up
+ix36612z15070/Q                          SRLC16E         3.239     3.239   up
+nx36612z72                               (net)           0.347                   1
+ix36612z1396/I2                          LUT3                      3.586   up
+ix36612z1396/O                           LUT3            0.529     4.115   dn
+nx36612z70                               (net)           0.347                   1
+ix36612z2651/I2                          LUT4                      4.462   dn
+ix36612z2651/O                           LUT4            0.529     4.991   up
+nx36612z69                               (net)           0.347                   1
+U3_Mult_out_multu16_0/ix2247z10733/A(0)  MULT18X18                 5.338   up
+U3_Mult_out_multu16_0/ix2247z10733/P(14) MULT18X18       2.770     8.108   up
+U3_Mult_out_multu16_0/nx1250z1           (net)           0.348                   2
+U4/ix5897z1320/I1                        LUT2                      8.456   up
+U4/ix5897z1320/O                         LUT2            0.529     8.985   up
+U4/nx5897z1                              (net)           0.348                   2
+U4/ACCU_add21_1i1_muxcy_14/S             MUXCY_L                   9.333   up
+U4/ACCU_add21_1i1_muxcy_14/LO            MUXCY_L         0.435     9.768   up
+U4/nx20975z1                             (net)           0.000                   2
+U4/ACCU_add21_1i1_xorcy_15/CI            XORCY                     9.768   up
+U4/ACCU_add21_1i1_xorcy_15/O             XORCY           0.798    10.566   up
+U4/ACCU_1n1s1(15)                        (net)           0.347                   1
+U4/ix25032z53740/I0                      LUT4                     10.913   up
+U4/ix25032z53740/O                       LUT4            0.529    11.442   up
+U4/ACCU_1n1ss1(15)                       (net)           0.347                   1
+U4/reg_ACCU(15)/D                        FDR                      11.789   up
+
+		Initial edge separation:     20.000
+		Source clock delay:      -    1.359
+		Dest clock delay:        +    1.359
+		                        -----------
+		Edge separation:             20.000
+		Setup constraint:        -    0.209
+		                        -----------
+		Data required time:          19.791
+		Data arrival time:       -   11.789   ( 79.38% cell delay, 20.62% net delay )
+		                        -----------
+		Slack:                        8.002
+
+End CTE Analysis ..... CPU Time Used: 0 sec.

@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/softl2/XILINX/ise_edk_147i/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle
+ise -v 3 -s 5 -n 3 -fastpaths -xml FILTER.twx FILTER.ncd -o FILTER.twr
+FILTER.pcf
+
+Design file:              FILTER.ncd
+Physical constraint file: FILTER.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+ADC_Eocb    |    1.660(R)|   -0.052(R)|CLK_BUFGP         |   0.000|
+Filter_In<0>|    1.966(R)|   -0.296(R)|CLK_BUFGP         |   0.000|
+Filter_In<1>|    1.402(R)|    0.155(R)|CLK_BUFGP         |   0.000|
+Filter_In<2>|    1.059(R)|    0.428(R)|CLK_BUFGP         |   0.000|
+Filter_In<3>|    1.752(R)|   -0.126(R)|CLK_BUFGP         |   0.000|
+Filter_In<4>|    0.829(R)|    0.612(R)|CLK_BUFGP         |   0.000|
+Filter_In<5>|    0.730(R)|    0.692(R)|CLK_BUFGP         |   0.000|
+Filter_In<6>|    1.845(R)|   -0.200(R)|CLK_BUFGP         |   0.000|
+Filter_In<7>|    1.012(R)|    0.467(R)|CLK_BUFGP         |   0.000|
+RESET       |    3.140(R)|   -0.666(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+ADC_Convstb  |    9.802(R)|CLK_BUFGP         |   0.000|
+ADC_Rdb      |    9.444(R)|CLK_BUFGP         |   0.000|
+ADC_csb      |    9.759(R)|CLK_BUFGP         |   0.000|
+DAC_WRb      |    7.339(R)|CLK_BUFGP         |   0.000|
+DAC_csb      |    7.977(R)|CLK_BUFGP         |   0.000|
+Filter_Out<0>|    8.802(R)|CLK_BUFGP         |   0.000|
+Filter_Out<1>|    9.033(R)|CLK_BUFGP         |   0.000|
+Filter_Out<2>|    8.829(R)|CLK_BUFGP         |   0.000|
+Filter_Out<3>|    8.352(R)|CLK_BUFGP         |   0.000|
+Filter_Out<4>|    9.899(R)|CLK_BUFGP         |   0.000|
+Filter_Out<5>|    8.732(R)|CLK_BUFGP         |   0.000|
+Filter_Out<6>|    9.611(R)|CLK_BUFGP         |   0.000|
+Filter_Out<7>|    8.564(R)|CLK_BUFGP         |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   11.580|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Mar  6 09:37:15 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 318 MB
+
+
+

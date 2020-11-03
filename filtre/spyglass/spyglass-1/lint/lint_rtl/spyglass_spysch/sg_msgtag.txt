@@ -1,0 +1,24 @@
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "RegInputOutput-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[64]
+"RULEGROUP"
+["morelint"]
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[43]
+"RULEGROUP"
+["morelint"]

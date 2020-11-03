@@ -1,0 +1,13 @@
+{signal: [
+  {name: 'clk (in)',						wave: 'p.....|........'	},
+  {name: 'reset (in)',						wave: '10....|........'	},
+  {name: 'Ack_F2ADC (out)',					wave: '0.10..|.......1'	,},
+  {name: 'Req_ADC2F (in)',					wave: '1..0..|.....1..'	,},
+  {name: 'Req_F2DAC (out)',					wave: '0.10..|.......1'	,},
+  {name: 'Delay_Line_Address (out)',		wave: '3..333|333....3'	,data:['0', '1', '2', '3', '29', '30','31','0' ]},
+  {name: 'Delay_Line_Sample_Shift (out)',	wave: '0.....|......10'	},
+  {name: 'Rom_Address (out)',		    	wave: '3..333|333....3'	,data:['0', '1', '2', '3','29', '30','31','0' ]},
+  {name: 'Accu_Ctrl (out)',					wave: '1..0..|.......1'	,},
+  {name: 'Buff_OE (out)',					wave: '0.....|..10....'	,},
+  {name: 'state (internal)',				wave: '3.33..|..33..33'	,data:['Init', 'Conv', 'Calcul', 'Buff', 'W C', 'Reg', 'Conv']},
+]}

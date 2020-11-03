@@ -1,0 +1,230 @@
+# //  ModelSim SE-64 10.2c Jul 18 2013 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vsim lib_BENCH.bench
+# vsim lib_BENCH.bench 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading modelsim_lib.util(body)
+# Loading work.bench(arch)#1
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Instance: /bench/DUT
+# Loading lib_par.filter(structure)#1
+# Loading simprim.x_buf(x_buf_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#1
+# Loading simprim.x_sff(x_sff_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#2
+# Loading simprim.x_inv(x_inv_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#3
+# Loading simprim.x_lut4(x_lut4_v)#4
+# Loading simprim.x_xor2(x_xor2_v)#1
+# Loading simprim.x_mux2(x_mux2_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#5
+# Loading simprim.x_mux2(x_mux2_v)#2
+# Loading simprim.x_and2(x_and2_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#6
+# Loading simprim.x_zero(x_zero_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#7
+# Loading simprim.x_obuf(x_obuf_v)#1
+# Loading simprim.x_bufgmux(x_bufgmux_v)#1
+# Loading simprim.x_mult18x18(x_mult18x18_v)#1
+# Loading simprim.x_sff(x_sff_v)#2
+# Loading simprim.x_srlc16e(x_srlc16e_v)#1
+# Loading simprim.x_lut4(x_lut4_v)#8
+# Loading simprim.x_lut4(x_lut4_v)#9
+# Loading simprim.x_lut4(x_lut4_v)#10
+# Loading simprim.x_one(x_one_v)#1
+# Loading simprim.x_roc(x_roc_v)#1
+# Loading simprim.x_toc(x_toc_v)#1
+add wave sim:/bench/*
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+run
+# ** Error: (vsim-3573) init_signal_spy [bench.vhd] : Length mismatch between objects '/bench/DUT/Accu_out' (8) and '/bench/Accu_out' (21).
+#    Time: 0 ns  Iteration: 0  Instance: /bench
+# ** Note: init_signal_spy [bench.vhd] : Mirroring the value of '/bench/DUT/Buff_OE' onto '/bench/Buff_OE'.
+restart
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+run
+# ** Error: (vsim-3573) init_signal_spy [bench.vhd] : Length mismatch between objects '/bench/DUT/Accu_out' (8) and '/bench/Accu_out' (21).
+#    Time: 0 ns  Iteration: 0  Instance: /bench
+# ** Note: init_signal_spy [bench.vhd] : Mirroring the value of '/bench/DUT/Buff_OE' onto '/bench/Buff_OE'.
+# ** Warning: demande de conversion trop courte
+#    Time: 1430 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2110 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2790 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 3470 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4150 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4830 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 5510 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6190 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6870 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 7550 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8230 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8910 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 9590 ns  Iteration: 15  Instance: /bench
+restart
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+run
+# ** Error: (vsim-3573) init_signal_spy [bench.vhd] : Length mismatch between objects '/bench/DUT/Accu_out' (8) and '/bench/Accu_out' (21).
+#    Time: 0 ns  Iteration: 0  Instance: /bench
+# ** Note: init_signal_spy [bench.vhd] : Mirroring the value of '/bench/DUT/Buff_OE' onto '/bench/Buff_OE'.
+# ** Warning: demande de conversion trop courte
+#    Time: 1430 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2110 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2790 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 3470 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4150 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4830 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 5510 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6190 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6870 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 7550 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8230 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8910 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 9590 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 10270 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 10950 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 11630 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 12310 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 12990 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 13670 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 14350 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 15030 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 15710 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 16390 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 17070 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 17750 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 18430 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 19110 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 19790 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 20470 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 21150 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 21830 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 22510 ns  Iteration: 15  Instance: /bench
+restart
+# ** Warning: (vsim-WLF-5022) WLF summary optimizations disabled.  This will adversely affect wave draw performance.
+run
+# ** Error: (vsim-3573) init_signal_spy [bench.vhd] : Length mismatch between objects '/bench/DUT/Accu_out' (8) and '/bench/Accu_out' (21).
+#    Time: 0 ns  Iteration: 0  Instance: /bench
+# ** Note: init_signal_spy [bench.vhd] : Mirroring the value of '/bench/DUT/Buff_OE' onto '/bench/Buff_OE'.
+# ** Warning: demande de conversion trop courte
+#    Time: 1430 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2110 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 2790 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 3470 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4150 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 4830 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 5510 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6190 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 6870 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 7550 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8230 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 8910 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 9590 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 10270 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 10950 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 11630 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 12310 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 12990 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 13670 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 14350 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 15030 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 15710 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 16390 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 17070 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 17750 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 18430 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 19110 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 19790 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 20470 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 21150 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 21830 ns  Iteration: 15  Instance: /bench
+# ** Warning: demande de conversion trop courte
+#    Time: 22510 ns  Iteration: 15  Instance: /bench

@@ -1,0 +1,27 @@
+read_file -type vhdl {../vhd/accu.vhd ../vhd/ADC_fsm.vhd ../vhd/buff.vhd ../vhd/DAC_fsm.vhd ../vhd/delayline.vhd ../vhd/filtre.vhd ../vhd/fsm.vhd ../vhd/mult.vhd ../vhd/register.vhd ../vhd/rom.vhd}
+
+
+current_goal adv_lint/adv_lint_struct -alltop
+run_goal
+current_goal adv_lint/adv_lint_verify -alltop
+run_goal
+current_goal adv_lint/adv_lint_struct -alltop
+
+
+
+
+
+
+
+
+current_goal lint/lint_rtl -alltop
+run_goal
+current_goal lint/lint_abstract -alltop
+run_goal
+current_goal lint/lint_rtl -alltop
+
+
+
+
+
+

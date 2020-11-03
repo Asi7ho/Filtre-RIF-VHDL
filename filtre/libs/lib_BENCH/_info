@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+cModel Technology
+d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/libs
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1519725779
+Va=ZenB6@;L<MEJ`KizkGL2
+04 5 4 work bench arch 1
+=1-0023ae922255-5a952cd0-7ae5a-18fd
+o-quiet -auto_acc_if_foreign -work lib_BENCH
+n@_opt
+OL;O;10.2c;57
+Ebench
+Z0 w1519725354
+Z1 DPx12 modelsim_lib 4 util 0 22 =5PmC60CdKjE9E[7_TDUk0
+Z2 DPx4 ieee 9 math_real 0 22 X1eFklFj<NHn@4Wz7P8j:2
+Z3 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z4 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z6 d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/filtre/bench
+Z7 8bench.vhd
+Z8 Fbench.vhd
+l0
+L17
+VP==zZZT99znQT3;:5SA[X0
+Z9 OL;C;10.2c;57
+32
+Z10 !s110 1519725628
+Z11 !s108 1519725627.989434
+Z12 !s90 -work|lib_BENCH|bench.vhd|
+Z13 !s107 bench.vhd|
+Z14 o-work lib_BENCH
+Z15 tOptimize_1164 0 Explicit 1 IgnoreVitalErrors 1 Show_VitalChecksWarnings 0
+!s100 gLL>^:m9C>7T`L?RW]n8W2
+!i10b 1
+!i111 0
+Aarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 bench 0 22 P==zZZT99znQT3;:5SA[X0
+l77
+L20
+V@F?SB=4aD7eTY4^Bedg<Q3
+R9
+32
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 UD;8Z:GYBc>0K@gP@Pe[40
+!i10b 1
+!i111 0

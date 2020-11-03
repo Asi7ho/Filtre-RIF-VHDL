@@ -1,0 +1,55 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     lint/lint_abstract@ CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 39
+-I              /softslin/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_PHYSICAL_HOME/common/sgphysical/policies/physical CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./spyglass-1/.SG_SaveRestoreDB CmdLine -                              -
+-enable_save_restore <ON>              CmdLine -                              -
+-enable_save_restore_builtin true              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-lib            WORK=>./spyglass-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         lint              CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_abstract.spq 30
+-projectwdir    ./spyglass-1      CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-rules          LINT_abstract01   CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_abstract.spq 45
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       lint/lint_abstract CmdLine -                              -
+-templatedir    /softl3/spyglass5_6_0/SpyGlass-5.6.0/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff CmdLine -                              -
+-wdir           ./spyglass-1/lint/lint_abstract CmdLine -                              -
+<design_files>  ../vhd/ADC_fsm.vhd APICall -                              -
+                ../vhd/DAC_fsm.vhd APICall -                              -
+                ../vhd/accu.vhd   APICall -                              -
+                ../vhd/buff.vhd   APICall -                              -
+                ../vhd/delayline.vhd APICall -                              -
+                ../vhd/filtre.vhd APICall -                              -
+                ../vhd/fsm.vhd    APICall -                              -
+                ../vhd/mult.vhd   APICall -                              -
+                ../vhd/register.vhd APICall -                              -
+                ../vhd/rom.vhd    APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        5.6.0           $SPYGLASS_HOME/policies/spyglass
+lint            5.6.0           $SPYGLASS_HOME/policies/lint
+
+

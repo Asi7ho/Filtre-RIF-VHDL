@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+cModel Technology
+d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/alu_reg/libs
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1518008447
+VOaPRH4bG6GGNVin`zA?;O3
+04 17 8 work alu_reg_testbench arch_etu 1
+=1-bc305b9b2c02-5a7af87d-52e06-164f
+o-quiet -auto_acc_if_foreign -work lib_BENCH
+n@_opt
+OL;O;10.2c;57
+Ealu_reg_testbench
+Z0 w1517912750
+Z1 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z2 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z4 d/tp/xph2sic/xph2sic015/tp-filtre-2a-sicom/alu_reg/bench
+Z5 8bench.vhd
+Z6 Fbench.vhd
+l0
+L7
+VFZ_zTZWof8Z4WLJBcezad2
+Z7 OL;C;10.2c;57
+32
+Z8 !s110 1518007834
+Z9 !s108 1518007834.275204
+Z10 !s90 -work|lib_BENCH|bench.vhd|
+Z11 !s107 bench.vhd|
+Z12 o-work lib_BENCH
+Z13 tOptimize_1164 0 Explicit 1 IgnoreVitalErrors 1 Show_VitalChecksWarnings 0
+!s100 o^]JVGE<KDKY91Yl9::NG2
+!i10b 1
+!i111 0
+Aarch_etu
+R1
+R2
+R3
+DEx4 work 17 alu_reg_testbench 0 22 FZ_zTZWof8Z4WLJBcezad2
+l50
+L12
+VGWEHER8Sz2zSl0o]Z@Ua23
+R7
+32
+R8
+R9
+R10
+R11
+R12
+R13
+!s100 UEeS5I1b8@WLSoKS1m:@o0
+!i10b 1
+!i111 0

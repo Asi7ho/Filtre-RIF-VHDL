@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">x</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">ZERO</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Accu_out&lt;20&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Accu_out&lt;11:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;0&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;1&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;2&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;3&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;4&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;5&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;6&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">Delay_Line_out&lt;7&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">32</arg> logic cells (<arg fmt="%d" index="3">16</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">16</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/ACCU_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FILTER</arg>&gt;.
+</msg>
+
+</messages>
+
